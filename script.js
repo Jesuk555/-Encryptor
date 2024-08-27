@@ -22,7 +22,7 @@ function btnCopiar() {
 }
   
 function encriptar(stringEncriptado){
-    let matriz = [["e", "eñtar"], ["i", "ikes"], ["a", "al"], ["o", "obos"], ["u", "uwun"]];
+    let matriz = [["e", "ester"], ["i", "ikes"], ["a", "al"], ["o", "obos"], ["u", "uwun"]];
     stringEncriptado = stringEncriptado.toLowerCase();
     
     for(let i = 0; i<matriz.length; i++){
@@ -34,7 +34,7 @@ function encriptar(stringEncriptado){
 }
 
 function desencriptar(stringDesencriptado){
-    let matriz = [["e", "eñtar"], ["i", "ikes"], ["a", "al"], ["o", "obos"], ["u", "uwun"]];
+    let matriz = [["e", "ester"], ["i", "ikes"], ["a", "al"], ["o", "obos"], ["u", "uwun"]];
     stringDesencriptado = stringDesencriptado.toLowerCase();
     
     for(let i = 0; i<matriz.length; i++){
